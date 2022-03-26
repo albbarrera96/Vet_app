@@ -1,4 +1,4 @@
-# lang_app
+# vet_app
 
 ## Project setup
 ```

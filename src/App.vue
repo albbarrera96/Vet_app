@@ -1,29 +1,35 @@
 <template>
   <Navbar />
-  <Intro />
+  <Topnav />
+  <!--Sentences />-->
+  <!--Intro />
   <Prices />
   <Accordion />
   <Contact />
-  <List/>
+  <List/>-->
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue'
-import Intro from './components/section1.vue'
-import Prices from './components/section2.vue'
-import Accordion from './components/section3.vue'
-import Contact from './components/section4.vue'
-import List from './components/section5.vue'
+import Topnav from './components/topnav.vue'
+// import Sentences from './components/sentence.vue'
+// import Intro from './components/section1.vue'
+// import Prices from './components/section2.vue'
+// import Accordion from './components/section3.vue'
+// import Contact from './components/section4.vue'
+// import List from './components/section5.vue'
 
 export default {
   name: 'App',
   components: {
     Navbar,
-    Intro,
-    Prices,
-    Accordion,
-    Contact,
-    List
+    Topnav
+    // Sentences,
+    // Intro,
+    // Prices,
+    // Accordion,
+    // Contact,
+    // List
   }
 }
 </script>
